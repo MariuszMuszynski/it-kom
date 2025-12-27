@@ -6,58 +6,58 @@ import { CheckCircle2, ArrowRight } from "lucide-react";
 const plans = [
   {
     name: "Starter",
-    description: "Perfect for small businesses just getting started",
-    price: "$499",
-    period: "/month",
+    description: "Idealny dla małych firm, które dopiero zaczynają",
+    price: "1999 zł",
+    period: "/miesiąc",
     features: [
-      "Up to 10 users",
-      "Basic cloud hosting",
-      "Email support",
-      "Monthly backups",
-      "Basic security monitoring",
+      "Do 10 użytkowników",
+      "Podstawowy hosting w chmurze",
+      "Wsparcie e-mail",
+      "Miesięczne kopie zapasowe",
+      "Podstawowy monitoring bezpieczeństwa",
     ],
     popular: false,
   },
   {
     name: "Professional",
-    description: "Ideal for growing businesses with expanding IT needs",
-    price: "$999",
-    period: "/month",
+    description: "Idealny dla rozwijających się firm z rosnącymi potrzebami IT",
+    price: "3999 zł",
+    period: "/miesiąc",
     features: [
-      "Up to 50 users",
-      "Advanced cloud infrastructure",
-      "24/7 phone & email support",
-      "Daily backups",
-      "Advanced threat protection",
-      "IT consulting hours",
-      "Priority response",
+      "Do 50 użytkowników",
+      "Zaawansowana infrastruktura chmurowa",
+      "Wsparcie telefoniczne i e-mail 24/7",
+      "Codzienne kopie zapasowe",
+      "Zaawansowana ochrona przed zagrożeniami",
+      "Godziny konsultacji IT",
+      "Priorytetowa odpowiedź",
     ],
     popular: true,
   },
   {
     name: "Enterprise",
-    description: "Comprehensive solution for large organizations",
-    price: "Custom",
+    description: "Kompleksowe rozwiązanie dla dużych organizacji",
+    price: "Indywidualnie",
     period: "",
     features: [
-      "Unlimited users",
-      "Dedicated infrastructure",
-      "Dedicated account manager",
-      "Real-time backups",
-      "Enterprise security suite",
-      "Unlimited consulting",
-      "Custom SLAs",
-      "On-site support available",
+      "Nieograniczona liczba użytkowników",
+      "Dedykowana infrastruktura",
+      "Dedykowany opiekun klienta",
+      "Kopie zapasowe w czasie rzeczywistym",
+      "Pakiet bezpieczeństwa enterprise",
+      "Nieograniczone konsultacje",
+      "Indywidualne SLA",
+      "Wsparcie na miejscu dostępne",
     ],
     popular: false,
   },
 ];
 
 const additionalServices = [
-  { service: "Cloud Migration", price: "From $2,500" },
-  { service: "Security Audit", price: "From $1,500" },
-  { service: "Custom Development", price: "$150/hour" },
-  { service: "Emergency Support", price: "$250/hour" },
+  { service: "Migracja do chmury", price: "Od 10 000 zł" },
+  { service: "Audyt bezpieczeństwa", price: "Od 6 000 zł" },
+  { service: "Rozwój oprogramowania", price: "600 zł/godz." },
+  { service: "Wsparcie awaryjne", price: "1000 zł/godz." },
 ];
 
 const Prices = () => {
@@ -68,14 +68,14 @@ const Prices = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 animate-fade-in">
-              Simple, Transparent <span className="text-gradient">Pricing</span>
+              Prosty, przejrzysty <span className="text-gradient">Cennik</span>
             </h1>
             <p
               className="text-lg text-muted-foreground animate-fade-in"
               style={{ animationDelay: "0.1s" }}
             >
-              Choose the plan that fits your business needs. All plans include
-              our core IT management features.
+              Wybierz plan dopasowany do potrzeb Twojej firmy. Wszystkie plany
+              zawierają nasze podstawowe funkcje zarządzania IT.
             </p>
           </div>
         </div>
@@ -97,7 +97,7 @@ const Prices = () => {
               >
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-secondary text-secondary-foreground text-sm font-semibold px-4 py-1 rounded-full">
-                    Most Popular
+                    Najpopularniejszy
                   </div>
                 )}
                 <div className="mb-6">
@@ -166,7 +166,7 @@ const Prices = () => {
                   className="w-full"
                   asChild
                 >
-                  <Link to="/contact">Get Started</Link>
+                  <Link to="/contact">Rozpocznij</Link>
                 </Button>
               </div>
             ))}
@@ -179,10 +179,10 @@ const Prices = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-foreground mb-4 text-center">
-              Additional Services
+              Dodatkowe usługi
             </h2>
             <p className="text-muted-foreground text-center mb-12">
-              Need something specific? We offer flexible add-on services.
+              Potrzebujesz czegoś konkretnego? Oferujemy elastyczne usługi dodatkowe.
             </p>
 
             <div className="grid md:grid-cols-2 gap-4">
@@ -208,15 +208,15 @@ const Prices = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Need a Custom Solution?
+              Potrzebujesz indywidualnego rozwiązania?
             </h2>
             <p className="text-muted-foreground mb-8">
-              Contact us to discuss your specific requirements and get a
-              tailored quote.
+              Skontaktuj się z nami, aby omówić swoje wymagania i otrzymać
+              spersonalizowaną ofertę.
             </p>
             <Button variant="hero" size="lg" asChild>
               <Link to="/contact">
-                Contact Sales <ArrowRight className="ml-2 w-5 h-5" />
+                Skontaktuj się ze sprzedażą <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </Button>
           </div>

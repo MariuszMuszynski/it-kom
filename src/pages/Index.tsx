@@ -13,33 +13,33 @@ import {
 const features = [
   {
     icon: Cloud,
-    title: "Cloud Solutions",
+    title: "Rozwiązania chmurowe",
     description:
-      "Secure and scalable cloud infrastructure tailored to your needs.",
+      "Bezpieczna i skalowalna infrastruktura chmurowa dostosowana do Twoich potrzeb.",
   },
   {
     icon: Shield,
-    title: "Cybersecurity",
+    title: "Cyberbezpieczeństwo",
     description:
-      "Protect your business with enterprise-grade security solutions.",
+      "Chroń swoją firmę dzięki rozwiązaniom bezpieczeństwa klasy enterprise.",
   },
   {
     icon: Headphones,
-    title: "24/7 Support",
-    description: "Round-the-clock technical support when you need it most.",
+    title: "Wsparcie 24/7",
+    description: "Całodobowe wsparcie techniczne, gdy najbardziej go potrzebujesz.",
   },
   {
     icon: Zap,
-    title: "Fast Deployment",
-    description: "Quick implementation with minimal disruption to your business.",
+    title: "Szybkie wdrożenie",
+    description: "Błyskawiczna implementacja z minimalnym wpływem na Twoją działalność.",
   },
 ];
 
 const stats = [
-  { value: "500+", label: "Clients Served" },
-  { value: "99.9%", label: "Uptime Guaranteed" },
-  { value: "24/7", label: "Support Available" },
-  { value: "15+", label: "Years Experience" },
+  { value: "500+", label: "Obsłużonych klientów" },
+  { value: "99.9%", label: "Gwarantowana dostępność" },
+  { value: "24/7", label: "Dostępne wsparcie" },
+  { value: "15+", label: "Lat doświadczenia" },
 ];
 
 const Index = () => {
@@ -50,16 +50,15 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-              Transform Your Business with{" "}
-              <span className="text-gradient">Expert IT Solutions</span>
+              Przekształć swój biznes dzięki{" "}
+              <span className="text-gradient">profesjonalnym rozwiązaniom IT</span>
             </h1>
             <p
               className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto animate-fade-in"
               style={{ animationDelay: "0.1s" }}
             >
-              We deliver cutting-edge technology solutions that drive growth,
-              enhance security, and streamline operations for businesses of all
-              sizes.
+              Dostarczamy nowoczesne rozwiązania technologiczne, które napędzają rozwój,
+              zwiększają bezpieczeństwo i usprawniają działanie firm każdej wielkości.
             </p>
             <div
               className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in"
@@ -67,11 +66,11 @@ const Index = () => {
             >
               <Button variant="hero" size="lg" asChild>
                 <Link to="/contact">
-                  Get Started <ArrowRight className="ml-2 w-5 h-5" />
+                  Rozpocznij <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
               <Button variant="hero-outline" size="lg" asChild>
-                <Link to="/services">Explore Services</Link>
+                <Link to="/services">Poznaj usługi</Link>
               </Button>
             </div>
           </div>
@@ -105,11 +104,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose TechPro?
+              Dlaczego warto nas wybrać?
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We combine industry expertise with innovative technology to deliver
-              solutions that exceed expectations.
+              Łączymy doświadczenie branżowe z innowacyjną technologią, aby dostarczać
+              rozwiązania przewyższające oczekiwania.
             </p>
           </div>
 
@@ -138,18 +137,18 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Ready to Elevate Your IT Infrastructure?
+              Gotowy, by podnieść poziom swojej infrastruktury IT?
             </h2>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Let's discuss how we can help your business thrive with our
-              comprehensive IT solutions.
+              Porozmawiajmy o tym, jak możemy pomóc Twojej firmie rozwijać się
+              dzięki naszym kompleksowym rozwiązaniom IT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="lg" asChild>
-                <Link to="/contact">Schedule a Consultation</Link>
+                <Link to="/contact">Umów konsultację</Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <Link to="/prices">View Pricing</Link>
+                <Link to="/prices">Zobacz cennik</Link>
               </Button>
             </div>
           </div>

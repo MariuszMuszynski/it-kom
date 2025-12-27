@@ -15,74 +15,74 @@ import {
 const services = [
   {
     icon: Cloud,
-    title: "Cloud Solutions",
+    title: "Rozwiązania chmurowe",
     description:
-      "Migrate to the cloud with confidence. We design, implement, and manage cloud infrastructure that scales with your business.",
+      "Migruj do chmury z pewnością. Projektujemy, wdrażamy i zarządzamy infrastrukturą chmurową, która skaluje się wraz z Twoim biznesem.",
     features: [
-      "Cloud migration strategy",
-      "AWS, Azure & Google Cloud",
-      "Hybrid cloud solutions",
-      "Cost optimization",
+      "Strategia migracji do chmury",
+      "AWS, Azure i Google Cloud",
+      "Rozwiązania chmury hybrydowej",
+      "Optymalizacja kosztów",
     ],
   },
   {
     icon: Shield,
-    title: "Cybersecurity",
+    title: "Cyberbezpieczeństwo",
     description:
-      "Protect your business from threats with our comprehensive security solutions and 24/7 monitoring.",
+      "Chroń swoją firmę przed zagrożeniami dzięki naszym kompleksowym rozwiązaniom bezpieczeństwa i całodobowemu monitoringowi.",
     features: [
-      "Threat detection & response",
-      "Security audits",
-      "Compliance management",
-      "Employee training",
+      "Wykrywanie i reagowanie na zagrożenia",
+      "Audyty bezpieczeństwa",
+      "Zarządzanie zgodnością",
+      "Szkolenia pracowników",
     ],
   },
   {
     icon: Server,
-    title: "Managed IT Services",
+    title: "Zarządzane usługi IT",
     description:
-      "Focus on your business while we handle your IT infrastructure with proactive management and support.",
+      "Skup się na swojej działalności, a my zajmiemy się Twoją infrastrukturą IT z proaktywnym zarządzaniem i wsparciem.",
     features: [
-      "24/7 monitoring",
-      "Proactive maintenance",
-      "Help desk support",
-      "Asset management",
+      "Monitoring 24/7",
+      "Proaktywna konserwacja",
+      "Wsparcie help desk",
+      "Zarządzanie zasobami",
     ],
   },
   {
     icon: Headphones,
-    title: "IT Consulting",
+    title: "Konsulting IT",
     description:
-      "Strategic technology guidance to align your IT investments with business objectives.",
+      "Strategiczne doradztwo technologiczne, aby dostosować inwestycje IT do celów biznesowych.",
     features: [
-      "Technology roadmaps",
-      "Digital transformation",
-      "Process optimization",
-      "Vendor management",
+      "Mapy drogowe technologii",
+      "Transformacja cyfrowa",
+      "Optymalizacja procesów",
+      "Zarządzanie dostawcami",
     ],
   },
   {
     icon: Code,
-    title: "Software Development",
+    title: "Rozwój oprogramowania",
     description:
-      "Custom software solutions designed to streamline operations and drive innovation.",
+      "Niestandardowe rozwiązania programistyczne zaprojektowane do usprawnienia operacji i napędzania innowacji.",
     features: [
-      "Web applications",
-      "Mobile apps",
-      "API integrations",
-      "Legacy modernization",
+      "Aplikacje webowe",
+      "Aplikacje mobilne",
+      "Integracje API",
+      "Modernizacja systemów",
     ],
   },
   {
     icon: Database,
-    title: "Data Services",
+    title: "Usługi danych",
     description:
-      "Unlock the value of your data with our analytics and database management solutions.",
+      "Odblokuj wartość swoich danych dzięki naszym rozwiązaniom analitycznym i zarządzaniu bazami danych.",
     features: [
-      "Data analytics",
-      "Database management",
-      "Backup & recovery",
-      "Data visualization",
+      "Analityka danych",
+      "Zarządzanie bazami danych",
+      "Backup i odzyskiwanie",
+      "Wizualizacja danych",
     ],
   },
 ];
@@ -95,14 +95,14 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 animate-fade-in">
-              Our <span className="text-gradient">Services</span>
+              Nasze <span className="text-gradient">Usługi</span>
             </h1>
             <p
               className="text-lg text-muted-foreground animate-fade-in"
               style={{ animationDelay: "0.1s" }}
             >
-              Comprehensive IT solutions tailored to meet your business needs
-              and drive digital transformation.
+              Kompleksowe rozwiązania IT dostosowane do potrzeb Twojej firmy
+              i napędzające transformację cyfrową.
             </p>
           </div>
         </div>
@@ -149,20 +149,20 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              How We Work
+              Jak pracujemy
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Our proven process ensures successful project delivery every time.
+              Nasz sprawdzony proces zapewnia skuteczną realizację każdego projektu.
             </p>
           </div>
 
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-4 gap-8">
               {[
-                { step: "01", title: "Discover", desc: "Understand your needs" },
-                { step: "02", title: "Plan", desc: "Design the solution" },
-                { step: "03", title: "Implement", desc: "Build & deploy" },
-                { step: "04", title: "Support", desc: "Ongoing optimization" },
+                { step: "01", title: "Odkrycie", desc: "Poznanie Twoich potrzeb" },
+                { step: "02", title: "Planowanie", desc: "Projektowanie rozwiązania" },
+                { step: "03", title: "Wdrożenie", desc: "Budowa i uruchomienie" },
+                { step: "04", title: "Wsparcie", desc: "Ciągła optymalizacja" },
               ].map((item, index) => (
                 <div
                   key={item.step}
@@ -188,14 +188,14 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Ready to Get Started?
+              Gotowy, aby zacząć?
             </h2>
             <p className="text-muted-foreground mb-8">
-              Let's discuss how our services can help transform your business.
+              Porozmawiajmy o tym, jak nasze usługi mogą pomóc w transformacji Twojej firmy.
             </p>
             <Button variant="hero" size="lg" asChild>
               <Link to="/contact">
-                Contact Us <ArrowRight className="ml-2 w-5 h-5" />
+                Skontaktuj się <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </Button>
           </div>

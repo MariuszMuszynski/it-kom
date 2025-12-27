@@ -2,9 +2,10 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Monitor, Menu, X } from "lucide-react";
 import { useState } from "react";
+
 const navLinks = [{
   href: "/",
-  label: "Home"
+  label: "Strona główna"
 }, {
   href: "/about",
   label: "O nas"
@@ -13,11 +14,12 @@ const navLinks = [{
   label: "Usługi"
 }, {
   href: "/prices",
-  label: "Prices"
+  label: "Cennik"
 }, {
   href: "/contact",
-  label: "Contact"
+  label: "Kontakt"
 }];
+
 const Header = () => {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -42,7 +44,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="hero" size="sm" asChild>
-              <Link to="/contact">Get Started</Link>
+              <Link to="/contact">Rozpocznij</Link>
             </Button>
           </div>
 
@@ -60,7 +62,7 @@ const Header = () => {
             <div className="mt-4 px-4">
               <Button variant="hero" className="w-full" asChild>
                 <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
-                  Get Started
+                  Rozpocznij
                 </Link>
               </Button>
             </div>
