@@ -4,50 +4,50 @@ import { Users, Target, Award, TrendingUp } from "lucide-react";
 const values = [
   {
     icon: Target,
-    title: "Client-Focused",
+    title: "Orientacja na klienta",
     description:
-      "We put your business needs first, delivering solutions that drive real results.",
+      "Stawiamy potrzeby Twojej firmy na pierwszym miejscu, dostarczając rozwiązania przynoszące realne rezultaty.",
   },
   {
     icon: Award,
-    title: "Excellence",
+    title: "Doskonałość",
     description:
-      "We maintain the highest standards in every project we undertake.",
+      "Utrzymujemy najwyższe standardy w każdym projekcie, który realizujemy.",
   },
   {
     icon: TrendingUp,
-    title: "Innovation",
+    title: "Innowacyjność",
     description:
-      "We stay ahead of technology trends to give you a competitive edge.",
+      "Wyprzedzamy trendy technologiczne, aby dać Ci przewagę konkurencyjną.",
   },
   {
     icon: Users,
-    title: "Partnership",
+    title: "Partnerstwo",
     description:
-      "We build lasting relationships based on trust and mutual success.",
+      "Budujemy trwałe relacje oparte na zaufaniu i wzajemnym sukcesie.",
   },
 ];
 
 const team = [
   {
-    name: "Michael Chen",
-    role: "CEO & Founder",
-    bio: "20+ years in IT leadership",
+    name: "Michał Kowalski",
+    role: "Dyrektor Generalny i Założyciel",
+    bio: "Ponad 20 lat w kierownictwie IT",
   },
   {
-    name: "Sarah Johnson",
-    role: "CTO",
-    bio: "Cloud architecture expert",
+    name: "Anna Nowak",
+    role: "Dyrektor ds. Technologii",
+    bio: "Ekspert architektury chmurowej",
   },
   {
-    name: "David Martinez",
-    role: "Head of Security",
-    bio: "Cybersecurity specialist",
+    name: "Dawid Wiśniewski",
+    role: "Szef Bezpieczeństwa",
+    bio: "Specjalista ds. cyberbezpieczeństwa",
   },
   {
-    name: "Emily Thompson",
-    role: "Client Success Director",
-    bio: "Customer experience leader",
+    name: "Emilia Jankowska",
+    role: "Dyrektor ds. Sukcesu Klienta",
+    bio: "Lider doświadczenia klienta",
   },
 ];
 
@@ -59,14 +59,14 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 animate-fade-in">
-              About <span className="text-gradient">TechPro</span>
+              O firmie <span className="text-gradient">it-kom</span>
             </h1>
             <p
               className="text-lg text-muted-foreground animate-fade-in"
               style={{ animationDelay: "0.1s" }}
             >
-              We're a team of passionate technologists dedicated to helping
-              businesses succeed through innovative IT solutions.
+              Jesteśmy zespołem pasjonatów technologii, którzy pomagają
+              firmom odnosić sukces dzięki innowacyjnym rozwiązaniom IT.
             </p>
           </div>
         </div>
@@ -79,21 +79,20 @@ const About = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <h2 className="text-3xl font-bold text-foreground mb-6">
-                  Our Story
+                  Nasza historia
                 </h2>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  Founded in 2008, TechPro began with a simple mission: to make
-                  enterprise-grade IT solutions accessible to businesses of all
-                  sizes.
+                  Założona w 2008 roku, firma it-kom rozpoczęła działalność z prostą misją: 
+                  udostępnić rozwiązania IT klasy enterprise firmom każdej wielkości.
                 </p>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  Over the years, we've grown from a small consulting firm to a
-                  full-service IT solutions provider, serving over 500 clients
-                  across various industries.
+                  Przez lata rozwinęliśmy się z małej firmy konsultingowej do 
+                  pełnoprawnego dostawcy rozwiązań IT, obsługując ponad 500 klientów
+                  z różnych branż.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Today, we continue to innovate and adapt, ensuring our clients
-                  always have access to the latest technology solutions.
+                  Dziś kontynuujemy innowacje i adaptację, zapewniając naszym klientom
+                  stały dostęp do najnowszych rozwiązań technologicznych.
                 </p>
               </div>
               <div
@@ -106,20 +105,20 @@ const About = () => {
                       15+
                     </div>
                     <div className="text-muted-foreground">
-                      Years of Experience
+                      Lat doświadczenia
                     </div>
                   </div>
                   <div>
                     <div className="text-4xl font-bold text-primary mb-1">
                       500+
                     </div>
-                    <div className="text-muted-foreground">Clients Served</div>
+                    <div className="text-muted-foreground">Obsłużonych klientów</div>
                   </div>
                   <div>
                     <div className="text-4xl font-bold text-primary mb-1">
                       50+
                     </div>
-                    <div className="text-muted-foreground">Team Members</div>
+                    <div className="text-muted-foreground">Członków zespołu</div>
                   </div>
                 </div>
               </div>
@@ -133,10 +132,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Our Values
+              Nasze wartości
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              These core principles guide everything we do.
+              Te podstawowe zasady kierują wszystkim, co robimy.
             </p>
           </div>
 
@@ -165,10 +164,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Leadership Team
+              Zespół kierowniczy
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Meet the experts driving our mission forward.
+              Poznaj ekspertów, którzy napędzają naszą misję.
             </p>
           </div>
 
