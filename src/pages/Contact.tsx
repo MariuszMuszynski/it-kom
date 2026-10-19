@@ -10,20 +10,20 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Telefon",
-    content: "+48 123 456 789",
+    content: "+48 500 574 971",
     subContent: "Pon-Pt 8:00-18:00",
   },
   {
     icon: Mail,
     title: "E-mail",
-    content: "info@it-kom.pl",
+    content: "kontakt@it-kom.eu",
     subContent: "Odpowiadamy w ciągu 24 godzin",
   },
   {
     icon: MapPin,
     title: "Biuro",
-    content: "ul. Technologiczna 123",
-    subContent: "00-001 Warszawa",
+    content: "ul. Zbaraska 16",
+    subContent: "93-225 Łódź",
   },
   {
     icon: Clock,
