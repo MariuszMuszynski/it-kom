@@ -70,17 +70,17 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Mail className="w-4 h-4" />
-                info@it-kom.pl
+                kontakt@it-kom.eu
               </li>
               <li className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Phone className="w-4 h-4" />
-                +48 123 456 789
+                +48 500 574 971
               </li>
               <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-0.5" />
-                ul. Technologiczna 123
+                ul. Zbaraska 16
                 <br />
-                00-001 Warszawa
+                93-225 Łódź
               </li>
             </ul>
           </div>
